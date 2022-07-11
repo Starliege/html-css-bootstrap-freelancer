@@ -52,3 +52,45 @@ nav, footer {
   main > section:first-child img {
     border-radius: 15px;
   }
+
+  input, textarea {
+    margin: 10px 0;
+    width: 100%;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 1.2rem;
+  }
+  
+  textarea {
+    min-height: 200px;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #000;
+  } 
+  
+  input[type="submit"] {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #1ABC9C;
+    border-radius: 10px;
+    color: #FFF;
+  }
+  
+  main > section:nth-child(4) p, main > section:nth-child(4) address {
+    font-size: 1.3rem;
+  }
+  
+  .social i {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    font-size: 1.5rem;
+  }
+  
+  .social a {
+    color: #FFF;
+  }
