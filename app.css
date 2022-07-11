@@ -1,0 +1,54 @@
+nav, footer {
+    background-color: #2C3E50;
+  }
+  
+  .bg-green {
+    background-color: #1ABC9C;
+  }
+  
+  .bg-blue {
+    background-color: #3A546D;
+  }
+  
+  header h1 {
+    font-size: 3.5rem;
+  }
+  
+  a {
+    color: #1ABC9C;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FFF;
+  }
+  
+  img[src="img/avatar.svg"] {
+    width: 250px;
+  }
+  
+  .separatore {
+    font-size: 2.5rem;
+  }
+  
+  .separatore::before, .separatore::after {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 15%;
+    position: relative;
+    top: -10px;
+    border-radius: 100px;
+  }
+  
+  .stella-nera::before, .stella-nera::after {
+    background-color: #000;
+  }
+  
+  .stella-bianca::before, .stella-bianca::after {
+    background-color: #FFF;
+  }
+  
+  main > section:first-child img {
+    border-radius: 15px;
+  }
